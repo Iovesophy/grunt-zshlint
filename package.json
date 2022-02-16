@@ -1,6 +1,6 @@
 {
   "name": "grunt-zshlint-darwin",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Validate `.zshrc`, `.zsh` files on Darwin(macOS).",
   "files": [
     "tasks",
