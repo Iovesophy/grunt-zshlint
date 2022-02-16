@@ -9,22 +9,21 @@
   ],
   "scripts": {
     "test": "grunt test",
-    "build": "grunt build",
-    "postinstall": "lsc -c tasks/zshlint.ls"
+    "build": "grunt build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pine/grunt-zshlint"
+    "url": "https://github.com/Iovesophy/grunt-zshlint"
   },
   "bugs": {
-    "url": "https://github.com/pine/grunt-zshlint/issues"
+    "url": "https://github.com/Iovesophy/grunt-zshlint/issues"
   },
-  "homepage": "https://github.com/pine/grunt-zshlint",
+  "homepage": "https://github.com/Iovesophy/grunt-zshlint",
   "keywords": [
     "gruntplugin"
   ],
   "author": {
-    "name": "Pine Mizune",
+    "name": "Pine Mizune, Iovesophy",
     "email": "pinemz@gmail.com",
     "url": "https://github.com/pine"
   },
@@ -34,11 +33,9 @@
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
     "grunt-contrib-jshint": "0.11.3",
-    "grunt-jsonlint": "^1.0.4",
-    "grunt-livescript": "^0.6.0"
+    "grunt-jsonlint": "^1.0.4"
   },
   "dependencies": {
-    "LiveScript": "^1.3.1",
     "prelude-ls": "^1.1.1"
   },
   "engines": {
