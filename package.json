@@ -1,7 +1,7 @@
 {
-  "name": "grunt-zshlint",
+  "name": "grunt-zshlint-darwin",
   "version": "0.2.2",
-  "description": "Validate `.zshrc`, `.zsh` files.",
+  "description": "Validate `.zshrc`, `.zsh` files on Darwin(macOS).",
   "files": [
     "tasks",
     "LICENSE",
@@ -24,8 +24,8 @@
   ],
   "author": {
     "name": "Pine Mizune, Iovesophy",
-    "email": "pinemz@gmail.com",
-    "url": "https://github.com/pine"
+    "email": "kazu825@me.com",
+    "url": "https://github.com/Iovesophy"
   },
   "license": "MIT",
   "devDependencies": {
