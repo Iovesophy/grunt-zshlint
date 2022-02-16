@@ -8,7 +8,7 @@ This plugin modified [grunt-zshlint](https://github.com/pine/grunt-zshlint) to w
 This plugin requires [Grunt](http://gruntjs.com) >=0.4.5 and zsh.
 
 ```sh
-$ npm install grunt-zshlint --save-dev
+$ npm install git+https://github.com/Iovesophy/grunt-zshlint.git --save-dev
 ```
 
 ## Usage examples
