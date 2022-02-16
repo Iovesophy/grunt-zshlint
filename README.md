@@ -19,7 +19,7 @@ Tested only zsh on Darwin(macOS) , so if you want to use script for another OS, 
 - zsh
 
 ```sh
-$ npm install git+https://github.com/Iovesophy/grunt-zshlint.git --save-dev
+$ npm install git+https://github.com/Iovesophy/grunt-zshlint-darwin.git --save-dev
 ```
 
 ## Usage examples
@@ -31,7 +31,7 @@ grunt.initConfig({
   }
 });
 
-grunt.loadNpmTasks('grunt-zshlint');
+grunt.loadNpmTasks('grunt-zshlint-darwin');
 ```
 
 ## Options
