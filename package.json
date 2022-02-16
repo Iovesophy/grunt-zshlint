@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Iovesophy/grunt-zshlint"
+    "url": "https://github.com/Iovesophy/grunt-zshlint-darwin"
   },
   "bugs": {
-    "url": "https://github.com/Iovesophy/grunt-zshlint/issues"
+    "url": "https://github.com/Iovesophy/grunt-zshlint-darwin/issues"
   },
-  "homepage": "https://github.com/Iovesophy/grunt-zshlint",
+  "homepage": "https://github.com/Iovesophy/grunt-zshlint-darwin",
   "keywords": [
     "gruntplugin"
   ],
