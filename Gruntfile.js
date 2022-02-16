@@ -11,19 +11,19 @@ module.exports = function(grunt) {
     jsonlint: {
       files: ['.jshintrc', '*.json']
     },
-    livescript: {
+    javascript: {
       options: {
         expand: true
       },
       files: {
         expand: true,
         ext: '.js',
-        src: ['tasks/**/*.ls', 'test/**/*.ls']
+        src: ['tasks/**/*.js', 'test/**/*.js']
       }
     }
   });
   
-  grunt.registerTask('build', ['livescript']);
+  grunt.registerTask('build', ['javascript']);
   grunt.registerTask('test', ['jshint', 'jsonlint', 'zshlint-test']);
   
   grunt.loadTasks('tasks');
@@ -31,5 +31,4 @@ module.exports = function(grunt) {
   
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-jsonlint');
-  grunt.loadNpmTasks('grunt-livescript');
 };
